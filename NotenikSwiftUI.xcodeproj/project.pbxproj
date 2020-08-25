@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,19 @@
 		9C4AF83624F4551200284CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AF83524F4551200284CAC /* Assets.xcassets */; };
 		9C4AF83924F4551200284CAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AF83824F4551200284CAC /* Preview Assets.xcassets */; };
 		9C4AF83C24F4551200284CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AF83A24F4551200284CAC /* LaunchScreen.storyboard */; };
+		9C4AF84524F4607C00284CAC /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4AF84424F4607C00284CAC /* Down */; };
+		9C4AF84824F460A400284CAC /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4AF84724F460A400284CAC /* Ink */; };
+		9C4AF84B24F460C000284CAC /* NotenikUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4AF84A24F460C000284CAC /* NotenikUtils */; };
+		9C4AF84E24F460E500284CAC /* NotenikTextile in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4AF84D24F460E500284CAC /* NotenikTextile */; };
+		9C4AF85124F4610600284CAC /* NotenikMkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4AF85024F4610600284CAC /* NotenikMkdown */; };
+		9C4AF85424F4613300284CAC /* NotenikLib in Frameworks */ = {isa = PBXBuildFile; productRef = 9C4AF85324F4613300284CAC /* NotenikLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C2F96BF24F4693F00C4B8A2 /* NotenikUtils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NotenikUtils; path = ../NotenikUtils; sourceTree = "<group>"; };
+		9C2F96C024F4695E00C4B8A2 /* NotenikTextile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NotenikTextile; path = ../NotenikTextile; sourceTree = "<group>"; };
+		9C2F96C124F4696E00C4B8A2 /* NotenikMkdown */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NotenikMkdown; path = ../NotenikMkdown; sourceTree = "<group>"; };
+		9C2F96C224F4697D00C4B8A2 /* NotenikLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NotenikLib; path = ../NotenikLib; sourceTree = "<group>"; };
 		9C4AF82C24F4550F00284CAC /* NotenikSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotenikSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4AF82F24F4550F00284CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4AF83124F4550F00284CAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +41,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4AF84524F4607C00284CAC /* Down in Frameworks */,
+				9C4AF84E24F460E500284CAC /* NotenikTextile in Frameworks */,
+				9C4AF85124F4610600284CAC /* NotenikMkdown in Frameworks */,
+				9C4AF85424F4613300284CAC /* NotenikLib in Frameworks */,
+				9C4AF84824F460A400284CAC /* Ink in Frameworks */,
+				9C4AF84B24F460C000284CAC /* NotenikUtils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,10 @@
 			children = (
 				9C4AF82E24F4550F00284CAC /* NotenikSwiftUI */,
 				9C4AF82D24F4550F00284CAC /* Products */,
+				9C2F96C224F4697D00C4B8A2 /* NotenikLib */,
+				9C2F96C124F4696E00C4B8A2 /* NotenikMkdown */,
+				9C2F96C024F4695E00C4B8A2 /* NotenikTextile */,
+				9C2F96BF24F4693F00C4B8A2 /* NotenikUtils */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +111,14 @@
 			dependencies = (
 			);
 			name = NotenikSwiftUI;
+			packageProductDependencies = (
+				9C4AF84424F4607C00284CAC /* Down */,
+				9C4AF84724F460A400284CAC /* Ink */,
+				9C4AF84A24F460C000284CAC /* NotenikUtils */,
+				9C4AF84D24F460E500284CAC /* NotenikTextile */,
+				9C4AF85024F4610600284CAC /* NotenikMkdown */,
+				9C4AF85324F4613300284CAC /* NotenikLib */,
+			);
 			productName = NotenikSwiftUI;
 			productReference = 9C4AF82C24F4550F00284CAC /* NotenikSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +147,14 @@
 				Base,
 			);
 			mainGroup = 9C4AF82324F4550F00284CAC;
+			packageReferences = (
+				9C4AF84324F4607C00284CAC /* XCRemoteSwiftPackageReference "Down" */,
+				9C4AF84624F460A400284CAC /* XCRemoteSwiftPackageReference "Ink" */,
+				9C4AF84924F460C000284CAC /* XCRemoteSwiftPackageReference "NotenikUtils" */,
+				9C4AF84C24F460E500284CAC /* XCRemoteSwiftPackageReference "NotenikTextile" */,
+				9C4AF84F24F4610600284CAC /* XCRemoteSwiftPackageReference "NotenikMkdown" */,
+				9C4AF85224F4613300284CAC /* XCRemoteSwiftPackageReference "NotenikLib" */,
+			);
 			productRefGroup = 9C4AF82D24F4550F00284CAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +378,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C4AF84324F4607C00284CAC /* XCRemoteSwiftPackageReference "Down" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iwasrobbed/Down.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+		9C4AF84624F460A400284CAC /* XCRemoteSwiftPackageReference "Ink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Ink.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		9C4AF84924F460C000284CAC /* XCRemoteSwiftPackageReference "NotenikUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hbowie/NotenikUtils.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.5;
+			};
+		};
+		9C4AF84C24F460E500284CAC /* XCRemoteSwiftPackageReference "NotenikTextile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hbowie/NotenikTextile.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+		9C4AF84F24F4610600284CAC /* XCRemoteSwiftPackageReference "NotenikMkdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hbowie/NotenikMkdown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		9C4AF85224F4613300284CAC /* XCRemoteSwiftPackageReference "NotenikLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hbowie/NotenikLib.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C4AF84424F4607C00284CAC /* Down */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4AF84324F4607C00284CAC /* XCRemoteSwiftPackageReference "Down" */;
+			productName = Down;
+		};
+		9C4AF84724F460A400284CAC /* Ink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4AF84624F460A400284CAC /* XCRemoteSwiftPackageReference "Ink" */;
+			productName = Ink;
+		};
+		9C4AF84A24F460C000284CAC /* NotenikUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4AF84924F460C000284CAC /* XCRemoteSwiftPackageReference "NotenikUtils" */;
+			productName = NotenikUtils;
+		};
+		9C4AF84D24F460E500284CAC /* NotenikTextile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4AF84C24F460E500284CAC /* XCRemoteSwiftPackageReference "NotenikTextile" */;
+			productName = NotenikTextile;
+		};
+		9C4AF85024F4610600284CAC /* NotenikMkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4AF84F24F4610600284CAC /* XCRemoteSwiftPackageReference "NotenikMkdown" */;
+			productName = NotenikMkdown;
+		};
+		9C4AF85324F4613300284CAC /* NotenikLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C4AF85224F4613300284CAC /* XCRemoteSwiftPackageReference "NotenikLib" */;
+			productName = NotenikLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C4AF82424F4550F00284CAC /* Project object */;
 }
