@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright (c) 2009 - 2020 Herb Bowie
+Copyright (c) 2020 Herb Bowie
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -27,6 +27,5 @@ Note that this project makes use of the following supporting libraries, each of 
 * [CoreXLSX](https://github.com/MaxDesiatov/CoreXLSX)
 * [Down](https://github.com/iwasrobbed/Down)
 * [Ink](https://github.com/JohnSundell/Ink)
-* [Pandoc](https://github.com/jgm/pandoc)
 * [XMLCoder](https://github.com/MaxDesiatov/XMLCoder)
 * [ZIPFoundation](https://github.com/weichsel/ZIPFoundation)

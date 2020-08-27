@@ -5,7 +5,7 @@ This is a note-taking application written in Swift and using SwiftUI. The intend
 
 Some of the Notenik code is now broken out into separate packages. 
 
-* [NorwnikLib](https://github.com/hbowie/NotenikLib)
+* [NotenikLib](https://github.com/hbowie/NotenikLib)
 * [NotenikUtils](https://github.com/hbowie/NotenikUtils)
 * [NotenikTextile](https://github.com/hbowie/NotenikTextile)
 * [NotenikMkdown](https://github.com/hbowie/NotenikMkdown)
